@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniversalDesign</title>
+    <link rel="stylesheet" href="tools.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <a class="skip-links" href="#main_content">Skip to main content</a>
+        <header>
+            <h1 class="sr-only"> Universal Design</h1>
+            <!-- <h1 >Universal Design</h1> -->
+
+        </header>
+
+
+        <nav aria-label="Main Navigation">
+            <h2 class="sr-only">Navigation</h2>
+            <ul>
+                <li><a href="final.html">Universal Design</a></li>
+                <li class="dropdown">
+                    <!-- aria-expanded needs managed with Javascript -->
+                    <button type="button" class="dropdown__title" aria-expanded="false" aria-controls="dropdown">
+                        Tools
+                    </button>
+                    <ul class="dropdown__menu" id="dropdown">
+                        <li><a href="#Topic1">What can they do?</a></li>
+                        <li><a href="#Topic2">Main Features</a></li>
+                        <li><a href="#aside2">Tools' links</a></li>
+                        <!-- <li><a href="#Topic4">Outliner</a></li> -->
+                        <!-- <li><a href="#Topic4">Macro Level</a></li> -->
+                    </ul>
+                </li>
+                <!-- <li><a href="tools.html">Tools</a></li> -->
+            </ul>
+        </nav>
+
+        <main id="main_content">
+            <a id="Topic1">
+                <h2>What evaluation tools can do and can not do </h2>
+                <p>Web accessibility evaluation tools can help you quickly identify potential accessibility issues. You
+                    can
+                    use them through all phases of the web design and development process. Tools can provide
+                    fully-automated
+                    checks, and help you with manual review.</p>
+                <p>We cannot check all accessibility aspects automatically. Human judgement is required. Sometimes
+                    evaluation tools can produce false or misleading results. Web accessibility evaluation tools can not
+                    determine accessibility, they can only assist in doing so.</p>
+
+            </a>
+
+            <a id="Topic2">
+                <h2>Main Features</h2>
+                <ul>
+                    <li> Guidelines
+                        <p>Different organizations and governments may require conformance with different accessibility
+                            standards, thus different tools support these standards. The W3C Web Content Accessibility
+                            Guidelines (WCAG) is internationally recognized as the standard for web accessibility, and
+                            supported
+                            by most tools.</p>
+                    </li>
+                    <li>Language
+                        <p>Evaluation tools support different languages. This includes the user interface of the tools,
+                            as
+                            well
+                            as the language of the content they support (for example, for detecting language-related
+                            barriers).
+
+                        </p>
+                    </li>
+                    <li>Type of Tool
+                        <p>Evaluation tools can be plugins (extensions) for authoring tools and web browsers, command
+                            line
+                            tools, desktop or mobile applications, and online services. Different tools may be combined,
+                            depending on your design and development process.</p>
+                    </li>
+                    <li>Supported Formats
+                        <p>Most evaluation tools check the accessibility of HTML content. Some check other web
+                            technologies,
+                            such as WAI-ARIA, CSS, SVG, and PDF.</p>
+                    </li>
+                    <li>Assists by
+                        <p>Some web accessibility evaluation tools can be used in more than one way. The following are
+                            some common characteristics used to support the evaluation process:
+                        <dl>
+                            <dt><br> Reports are useful to determine the conformance of the checkpoints that can be
+                                automatically checked.
+                            </dt>
+                            <dt> <br>Step-by-step evaluations: Wizard-based evaluation tools guide users through
+                                sequences
+                                of
+                                checks.
+                                They
+                                conduct automated checks and prompt the user to manually assess the rest. For example, a
+                                wizard-based
+                                tool may check images for alternate text. The user then evaluates how appropriate the
+                                alternate
+                                text is.
+                            </dt>
+
+                            <dt><br> In-page feedback: This feature inserts temporary icons and markup to display
+                                results
+                                of
+                                accessibility
+                                checks. They are useful to view issues in context. They are also useful to understand
+                                the
+                                relative
+                                importance of each issue.
+                            </dt>
+
+                            <dt><br> Page transformation: Transformation tools change the appearance of a site to help
+                                identify
+                                design
+                                issues. For example, the tool may show the site in text only or without color. These
+                                tools
+                                are
+                                useful to
+                                compensate for the limitations of automated testing.
+                            </dt>
+                            <dd></dd>
+                        </dl>
+                        <br>
+                    </li>
+
+                    <li>Automatically Checks
+                        <p>The scope of what the evaluation tool can automatically test varies depending on the tool.
+                            Some
+                            tools
+                            check a single page, while others check entire groups of related pages. Some can also access
+                            password-restricted content.</p>
+                    </li>
+
+                    <li>License
+                        <p>Evaluation tools are available under a variety of license types, such as Open Source,
+                            Commercial,
+                            Enterprise, etc.</p>
+                    </li>
+                    <li>Accessibility Information
+                        <p>It is important that evaluation tools are accessible so that people with disabilities can use
+                            them.
+                            Some tools provide information on how well they support accessibility.
+
+                        </p>
+                    </li>
+                </ul>
+            </a>
+        </main>
+
+        <aside id="aside2">
+            <h2 class="sr-only">aside 2</h2>
+            <h3> useful Links <span class="material-symbols-outlined">link</span></h3>
+            <p>
+            <ul>
+                <li><a href="https://validator.w3.org/nu/">Nu Html Checker </a>
+                    <p>This tool is an ongoing experiment in better HTML checking, and its behavior remains subject to
+                        change</p>
+                </li>
+                <li><a href="https://jigsaw.w3.org/css-validator/"> CSS Validation Service</a>
+                    <p>Check Cascading Style Sheets (CSS) and (X)HTML documents with style sheets </p>
+                </li>
+                <li> <a href="https://fonts.google.com/"> Google Fonts</a>
+                    <p>Google Fonts makes it easy to bring personality and performance to your websites and products.
+                    </p>
+                </li>
+                <li><a href="https://fonts.google.com/icons"> Material Icons</a>
+                    <p>Material Symbols are our newest icons consolidating over 2,500 glyphs in a single font file with
+                        a wide range of design variants. </p>
+                </li>
+                <li><a href="https://color.adobe.com/create/color-contrast-analyzer"> Adobe Color acessibility tools</a>
+                    <p>The design minimizes hazards and the adverse consequences of
+                        accidental or unintended actions. </p>
+                </li>
+                <li><a href="https://wave.webaim.org/"> WAVE-web accessibility evaluation tool</a>
+                    <p>WAVE® is a suite of evaluation tools that helps authors make their web content more accessible to
+                        individuals with disabilities. WAVE can identify many accessibility and Web Content
+                        Accessibility Guideline (WCAG) errors, but also facilitates human evaluation of web content.
+                    </p>
+                </li>
+                <li><a href="https://css-tricks.com/"> CSS-TRICKS</a>
+                </li>
+                <li><a href="https://necolas.github.io/normalize.css/"> Normalize.css</a></li>
+            </ul>
+
+        </aside>
+
+
+
+        <footer>
+            <small> designed by RuiZhang</small>
+        </footer>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
